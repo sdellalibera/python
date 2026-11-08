@@ -1,4 +1,14 @@
-for i in range(10):
+for i in range(3):
     print(i)
-    i += 1
+print('\n')    
 
+for i in range(3,8,2):
+    print(i)
+print('\n')  
+
+for i in range(5,1,-1):
+    print(i)
+print('\n')  
+
+while(True):
+    print("ciao")
