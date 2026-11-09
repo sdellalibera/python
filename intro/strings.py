@@ -7,3 +7,6 @@ print('\n')
 
 print(string[:4])
 print('\n')
+
+# f-string 
+print(f'{string} come va?')

@@ -1,17 +1,9 @@
-from typing import List,Dict
-
-dict = {}
-dict["Alice"] = 25
-print(type(dict))
-
-def create_dictionary(name: str, age: int) -> Dict[str,int]:
-    return {name:age}
-
-dict1 = create_dictionary("alice",25)
-
 names = ["Marco","Mario","Matteo"]
 
-def list_to_dict(words: List[str]) -> Dict[str,int]:
+def create_dictionary(name: str, age: int) -> dict[str,int]:
+    return {name:age}
+
+def list_to_dict(words: list[str]) -> dict[str,int]:
     dictionary = {}
     for i in range(len(words)):
         w = words[i]
